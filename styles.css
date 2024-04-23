@@ -16,7 +16,7 @@ a {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border: 10px solid red;
 
@@ -24,6 +24,31 @@ a {
 
 .logo {
   display: flex;
-  flex: 1;
+  
+  border: 10px solid blue;
+}
+
+.listen {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 6px;
+  
+}
+
+.main {
+  border: 10px solid red;
+  display: flex;
+  
+}
+
+h1 {
+  width: 400px;
+  
+  border: 10px solid blue;
+}
+
+p {
+  width: 400px;
   border: 10px solid blue;
 }
