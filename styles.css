@@ -5,27 +5,38 @@ img {
 ul {
   list-style: none;
   display: flex;
-  border: 10px solid green;
+
+  
 }
 
 a {
   text-decoration: none;
   color: #0060B6;
-    text-decoration: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.links {
+  gap: 40px;
+  margin-left: 20px;
+
 }
 
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 10px solid red;
-
+  
+  background-color: #1f2937;
+  padding-left: 35px;
+  gap: 80px;
 }
 
 .logo {
   display: flex;
+  margin-left: 20px;
   
-  border: 10px solid blue;
 }
 
 .listen {
@@ -33,22 +44,41 @@ a {
   color: white;
   padding: 10px 30px;
   border-radius: 6px;
+
+}
+
+.divide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   
+  background-color: #1f2937;
 }
 
 .main {
-  border: 10px solid red;
-  display: flex;
   
+  margin-left: 230px;
+
 }
 
-h1 {
+.one {
   width: 400px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
   
-  border: 10px solid blue;
 }
 
 p {
   width: 400px;
-  border: 10px solid blue;
+  font-size: 18px;
+  color: #e5e7eb;
+  
+}
+
+.neon img {
+  
+  width: 500px;
+  margin-right: 170px;
+
 }
