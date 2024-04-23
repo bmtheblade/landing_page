@@ -1,0 +1,29 @@
+img {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  border: 10px solid green;
+}
+
+a {
+  text-decoration: none;
+  color: #0060B6;
+    text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid red;
+
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  border: 10px solid blue;
+}
