@@ -94,6 +94,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 52px;
+  margin-bottom: 50px;
 
 }
 
@@ -105,4 +106,43 @@ h2 {
 
 .info img {
   width: 200px;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  width: 600px;
+  font-size: 26px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+ 
+  padding-left: 450px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.container2 {
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.container3 {
+  display: flex;
+}
+
+.action {
+  display: flex;
+  background-color: #3882f6;
 }
